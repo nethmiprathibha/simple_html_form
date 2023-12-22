@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Html form</title>
+    <style>
+         body {
+            font-family: 'Lato', sans-serif;
+         }
+
+        .form_class {
+            background-color: black;
+            width: 25%;
+            padding: 10px;
+            margin: auto;
+            top: 50px;
+        }
+
+        label {
+            color: white;
+            margin:5px;
+        }
+
+
+        .text_feild {
+            border: 1px solid gray;
+            border-radius: 15px;
+            margin: 5px;
+        }
+
+        .login_button {
+            background-color: #3366ff;
+            color: white;
+            border: 0px;
+            border-radius: 15px;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form_class" align="center">
+        <label>Email</label>
+        <br />
+
+        <input type="text" class="text_feild" />
+        <br />
+        <label>Password</label>
+        <br />
+        <input type="password" class="text_feild" />
+        <br />
+        <input type="submit" value="Login" class="login_button" />
+
+    </div>
+
+</body>
+</html>
